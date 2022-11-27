@@ -1,0 +1,19 @@
+.carts {
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 100vh;
+}
+.carts h4 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.slide__active {
+    visibility: hidden;
+}
+@media (max-width : 768px){
+    .carto {
+        font-size: 15px;
+    }
+}
